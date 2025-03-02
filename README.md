@@ -1,0 +1,2 @@
+# Petcu_Robert_Adrian_ActivitateCTS2025
+ActivitateCTS2025
