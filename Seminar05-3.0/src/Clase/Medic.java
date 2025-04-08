@@ -10,8 +10,8 @@ public class Medic extends Angajat{
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Medic{");
-        sb.append("spor=").append(spor);
+        final StringBuilder sb = new StringBuilder(super.toString());
+        sb.append(", spor=").append(spor);
         sb.append('}');
         return sb.toString();
     }

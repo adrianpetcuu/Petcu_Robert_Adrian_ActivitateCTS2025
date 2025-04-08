@@ -10,8 +10,8 @@ public class Asistent extends Angajat{
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Asistent{");
-        sb.append("spor=").append(spor);
+        final StringBuilder sb = new StringBuilder(super.toString());
+        sb.append(", spor=").append(spor);
         sb.append('}');
         return sb.toString();
     }

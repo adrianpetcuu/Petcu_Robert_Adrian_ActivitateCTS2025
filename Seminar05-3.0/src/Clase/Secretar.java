@@ -10,8 +10,8 @@ public class Secretar extends Angajat{
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Secretar{");
-        sb.append("vechime=").append(vechime);
+        final StringBuilder sb = new StringBuilder(super.toString());
+        sb.append(", vechime=").append(vechime);
         sb.append('}');
         return sb.toString();
     }

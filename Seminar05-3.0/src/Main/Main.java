@@ -16,7 +16,7 @@ public class Main {
         fabricaPersonalMedical.setSpor(15);
         Angajat asistent = fabricaPersonalMedical.creareAngajat(TipPersonalMedical.ASISTENT, "asistent", 4000);
         Angajat secretar = fabricaPersonalNonMedical.creareAngajat(TipPersonalNonMedical.SECRETAR, "secretar", 3500);
-        fabricaPersonalNonMedical.setVechime(10);
+        fabricaPersonalNonMedical.setVechime(12);
         Angajat portar = fabricaPersonalNonMedical.creareAngajat(TipPersonalNonMedical.PORTAR, "portar", 3000);
         System.out.println(medic.toString());
         System.out.println(asistent.toString());
