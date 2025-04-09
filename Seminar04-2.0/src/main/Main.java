@@ -6,6 +6,7 @@ import clase.Rezervare;
 public class Main {
     public static void main(String[] args) {
         ARezervare rezervare = new Rezervare("Daria", 10, "25.10.20", "14:00");
+        System.out.println(rezervare.toString());
         ARezervare rezervare2 = rezervare.copiaza();
         ARezervare rezervare3 = rezervare.copiaza();
 

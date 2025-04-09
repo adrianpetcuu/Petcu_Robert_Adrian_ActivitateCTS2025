@@ -45,7 +45,7 @@ public class Pacient {
     public String toString() {
         final StringBuilder sb = new StringBuilder("Pacient{");
         sb.append("nume=").append(nume);
-        sb.append("arePatRabatabil=").append(arePatRabatabil);
+        sb.append(", arePatRabatabil=").append(arePatRabatabil);
         sb.append(", areMicDejun=").append(areMicDejun);
         sb.append(", arePapuciDeCameara=").append(arePapuciDeCameara);
         sb.append(", areHalat=").append(areHalat);
