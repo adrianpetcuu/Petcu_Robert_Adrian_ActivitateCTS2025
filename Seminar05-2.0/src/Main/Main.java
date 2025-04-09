@@ -12,6 +12,7 @@ public class Main {
         Pacient pacient1 = pacientBuilder.setNumeInsotitor("Maria").build("Ion");
         System.out.println(pacient1.toString());
         Pacient pacient2 = pacientBuilder.setNumeInsotitor("Ana").setArePapuciDeCameara(false).build("Ioana");
+        System.out.println(pacient1.toString());
         System.out.println(pacient2.toString());
     }
 }
