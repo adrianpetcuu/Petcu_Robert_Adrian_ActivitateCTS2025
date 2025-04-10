@@ -11,17 +11,17 @@ public class AutoritatePescuit {
     private int nrAngajati;
     private static AutoritatePescuit instance;
 
+    private AutoritatePescuit(String denumire, String website, int nrAngajati) {
+        this.denumire = denumire;
+        this.website = website;
+        this.nrAngajati = nrAngajati;
+    }
+
     public static AutoritatePescuit getInstance() {
         if (instance == null) {
             instance = new AutoritatePescuit("Autoritate Pescuit", "www.site.ro", 15);
         }
         return instance;
-    }
-
-    private AutoritatePescuit(String denumire, String website, int nrAngajati) {
-        this.denumire = denumire;
-        this.website = website;
-        this.nrAngajati = nrAngajati;
     }
 
     private Map<String, Autorizatie> registry = new HashMap<String, Autorizatie>();

@@ -19,7 +19,7 @@ public abstract class AFactura {
     public AFactura(){
         this.numeClient = "Anonim";
         this.valoare = 0;
-        this.dataEmitere = "01.01.2024";
+        this.dataEmitere = "01.02.24";
     }
 
     public abstract void descriere();

@@ -6,6 +6,7 @@ public class AutoritatePescuitLazy {
     private String website;
     private int nrAngajati;
     private int nrAutorizatiiEmise;
+
     private static AutoritatePescuitLazy instance = null;
 
     private AutoritatePescuitLazy(String denumire, String website, int nrAngajati, int nrAutorizatiiEmise) {
