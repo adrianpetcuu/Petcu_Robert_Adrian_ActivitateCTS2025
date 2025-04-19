@@ -1,4 +1,4 @@
-package clase;
+package exemplul1.clase;
 
 public class PlataCard implements Plata {
 

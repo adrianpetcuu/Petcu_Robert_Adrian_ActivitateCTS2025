@@ -1,9 +1,9 @@
-package program;
+package exemplul1.program;
 
-import clase.AdaptorPlataPayPal;
-import clase.Plata;
-import clase.PlataCard;
-import clase.PlataPayPal;
+import exemplul1.clase.AdaptorPlataPayPal;
+import exemplul1.clase.Plata;
+import exemplul1.clase.PlataCard;
+import exemplul1.clase.PlataPayPal;
 
 public class Main {
 
