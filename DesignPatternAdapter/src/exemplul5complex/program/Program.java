@@ -1,12 +1,12 @@
-package exemplu5complex.program;
+package exemplul5complex.program;
 
-import exemplu5complex.clasice.BicicletaClasica;
-import exemplu5complex.clasice.TrotinetaClasica;
-import exemplu5complex.manager.GestionareFlota;
-import exemplu5complex.modele.AdaptorVehiculClasic;
-import exemplu5complex.modele.BicicletaElectrica;
-import exemplu5complex.modele.TrotinetaElectrica;
-import exemplu5complex.modele.VehiculElectric;
+import exemplul5complex.clasice.BicicletaClasica;
+import exemplul5complex.clasice.TrotinetaClasica;
+import exemplul5complex.manager.GestionareFlota;
+import exemplul5complex.modele.AdaptorVehiculClasic;
+import exemplul5complex.modele.BicicletaElectrica;
+import exemplul5complex.modele.TrotinetaElectrica;
+import exemplul5complex.modele.VehiculElectric;
 
 public class Program {
     public static void main(String[] args) {

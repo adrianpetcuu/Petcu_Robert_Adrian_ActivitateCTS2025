@@ -1,4 +1,4 @@
-package exemplu5complex.modele;
+package exemplul5complex.modele;
 
 public class BicicletaElectrica implements VehiculElectric{
     private String serie;

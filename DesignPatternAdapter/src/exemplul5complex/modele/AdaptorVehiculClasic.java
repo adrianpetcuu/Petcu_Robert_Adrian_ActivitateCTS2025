@@ -1,7 +1,7 @@
-package exemplu5complex.modele;
+package exemplul5complex.modele;
 
-import exemplu5complex.clasice.BicicletaClasica;
-import exemplu5complex.clasice.TrotinetaClasica;
+import exemplul5complex.clasice.BicicletaClasica;
+import exemplul5complex.clasice.TrotinetaClasica;
 
 public class AdaptorVehiculClasic implements VehiculElectric{
     private Object vehiculClasic;

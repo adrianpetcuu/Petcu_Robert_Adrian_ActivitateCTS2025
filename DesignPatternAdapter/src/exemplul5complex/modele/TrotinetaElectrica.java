@@ -1,4 +1,4 @@
-package exemplu5complex.modele;
+package exemplul5complex.modele;
 
 public class TrotinetaElectrica implements VehiculElectric{
     private String id;

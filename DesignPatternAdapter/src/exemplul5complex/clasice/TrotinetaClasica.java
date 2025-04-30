@@ -1,4 +1,4 @@
-package exemplu5complex.clasice;
+package exemplul5complex.clasice;
 
 public class TrotinetaClasica {
     private String cod;

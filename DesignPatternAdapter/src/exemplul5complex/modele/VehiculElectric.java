@@ -1,4 +1,4 @@
-package exemplu5complex.modele;
+package exemplul5complex.modele;
 
 public interface VehiculElectric {
     void incarca();
