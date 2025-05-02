@@ -16,5 +16,8 @@ public class Program {
         System.out.println();
         Nota notaCraciun = new NotaCraciun(notaDecorata);
         notaCraciun.printare();
+        System.out.println();
+        Nota notaPaste = new NotaPaste(notaDecorata);
+        notaPaste.printare();
     }
 }
