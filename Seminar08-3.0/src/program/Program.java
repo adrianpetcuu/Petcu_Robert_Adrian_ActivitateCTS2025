@@ -8,7 +8,7 @@ import clase.Rezervare;
 public class Program {
     public static void main(String[] args) {
         IRezervare rezervare = new Rezervare();
-        ProxyRezervare proxy = new ProxyRezervare(rezervare);
+        IRezervare proxy = new ProxyRezervare(rezervare);
 
         proxy.realizeazaRezervare("Pop Irina", 2);
         proxy.realizeazaRezervare("Ioana", 4); 
