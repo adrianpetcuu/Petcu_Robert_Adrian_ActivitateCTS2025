@@ -14,7 +14,7 @@ public class Program {
     public static void main(String[] args) {
         Player mp3 = new MP3Player();
         YouTubePlayer yt = new YouTubePlayer();
-        AdaptorYouTubePlayer adaptorYt = new AdaptorYouTubePlayer(yt);
+        Player adaptorYt = new AdaptorYouTubePlayer(yt);
 
         reda(mp3, "melodie.mp3");
         reda(adaptorYt, "documentar_interesant");

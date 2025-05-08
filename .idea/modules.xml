@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/DesignPatternAdapter/DesignPatternAdapter.iml" filepath="$PROJECT_DIR$/DesignPatternAdapter/DesignPatternAdapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatternDecorator/DesignPatternDecorator.iml" filepath="$PROJECT_DIR$/DesignPatternDecorator/DesignPatternDecorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatternFacade/DesignPatternFacade.iml" filepath="$PROJECT_DIR$/DesignPatternFacade/DesignPatternFacade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternFlyweight/DesignPatternFlyweight.iml" filepath="$PROJECT_DIR$/DesignPatternFlyweight/DesignPatternFlyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatternProxy/DesignPatternProxy.iml" filepath="$PROJECT_DIR$/DesignPatternProxy/DesignPatternProxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework1/Homework1.iml" filepath="$PROJECT_DIR$/Homework1/Homework1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework2/Homework2.iml" filepath="$PROJECT_DIR$/Homework2/Homework2.iml" />
@@ -37,6 +38,8 @@
       <module fileurl="file://$PROJECT_DIR$/Seminar08/Seminar08.iml" filepath="$PROJECT_DIR$/Seminar08/Seminar08.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar08-2.0/Seminar08-2.0.iml" filepath="$PROJECT_DIR$/Seminar08-2.0/Seminar08-2.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar08-3.0/Seminar08-3.0.iml" filepath="$PROJECT_DIR$/Seminar08-3.0/Seminar08-3.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar10/Seminar10.iml" filepath="$PROJECT_DIR$/Seminar10/Seminar10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar10-2.0/Seminar10-2.0.iml" filepath="$PROJECT_DIR$/Seminar10-2.0/Seminar10-2.0.iml" />
     </modules>
   </component>
 </project>
