@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ACTIVITATECTS.iml" filepath="$PROJECT_DIR$/ACTIVITATECTS.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatternAdapter/DesignPatternAdapter.iml" filepath="$PROJECT_DIR$/DesignPatternAdapter/DesignPatternAdapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternComposite/DesignPatternComposite.iml" filepath="$PROJECT_DIR$/DesignPatternComposite/DesignPatternComposite.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatternDecorator/DesignPatternDecorator.iml" filepath="$PROJECT_DIR$/DesignPatternDecorator/DesignPatternDecorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatternFacade/DesignPatternFacade.iml" filepath="$PROJECT_DIR$/DesignPatternFacade/DesignPatternFacade.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatternFlyweight/DesignPatternFlyweight.iml" filepath="$PROJECT_DIR$/DesignPatternFlyweight/DesignPatternFlyweight.iml" />
