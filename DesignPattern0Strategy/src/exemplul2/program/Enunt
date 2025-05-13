@@ -1,0 +1,19 @@
+Sistem de evaluare dinamică pentru cursanți
+
+O platformă de e-learning trebuie să implementeze un modul care să gestioneze evaluarea studenților în funcție de tipul de curs.
+În funcție de domeniu și structură, fiecare curs folosește un sistem de evaluare diferit:
+
+Tipuri de evaluare:
+Evaluare clasică – media dintre notele la test și proiect.
+
+Evaluare pe bază de punctaj – puncte pentru quiz-uri, teme și prezență. Se face transformare în notă finală.
+
+Evaluare continuă – se evaluează progresul pe săptămâni; se face o medie ponderată.
+
+Alte detalii:
+Clasa Student conține: nume, listă de punctaje, și strategia de evaluare.
+
+Se pot adăuga noi tipuri de evaluare în viitor.
+
+Se cere o metodă calculeazaNotaFinala() care aplică regulile definite dinamic, în funcție de strategia curentă.
+

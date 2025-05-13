@@ -1,0 +1,43 @@
+Sistem de livrare dinamică pentru o aplicație de food delivery
+
+Se dorește implementarea unui modul care să gestioneze livrarea comenzilor pentru o
+aplicație de tip Glovo/FoodPanda.
+
+Livrarea se poate face în mai multe moduri:
+
+Livrare standard: se face cu un curier normal în 45–60 minute.
+
+Livrare rapidă: se alocă un curier din apropiere și se livrează în 20–30 minute.
+
+Livrare eco: se alocă un curier pe bicicletă, dar timpul e variabil în funcție de trafic.
+
+Fiecare metodă de livrare are:
+
+un cost calculat diferit
+
+un timp estimat
+
+un mesaj de logare specific
+
+Clasa Comanda conține:
+
+Numele clientului
+
+Adresa de livrare
+
+Lista de produse (cu denumire și preț)
+
+Suma totală
+
+Metoda de livrare aleasă
+
+Clientul poate schimba metoda de livrare chiar înainte de finalizare, iar
+sistemul trebuie să se adapteze.
+
+Se dorește o implementare flexibilă care să:
+
+Permită adăugarea de noi tipuri de livrare fără modificarea codului existent.
+
+Poată calcula costul total (comandă + livrare).
+
+Poată genera o estimare detaliată a livrării.
