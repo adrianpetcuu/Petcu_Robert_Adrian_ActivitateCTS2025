@@ -1,0 +1,20 @@
+ Enunț: Sistem de generare polițe de asigurare auto cu strategii de calcul preț
+Context:
+O companie de asigurări vinde polițe RCA și CASCO. Calculul prețului final diferă în funcție de strategia de asigurare:
+
+RCA – prețul se bazează pe capacitatea cilindrică și vârsta șoferului.
+
+CASCO – prețul depinde de valoarea mașinii, istoricul daunelor și zona de utilizare.
+
+Asigurare Premium – se aplică un procent fix + pachet de beneficii speciale (asistență, înlocuire mașină etc.).
+
+Cerințe:
+Clasa PolitaAsigurare trebuie să:
+
+conțină toate datele relevante: șofer, mașină, valoare, istoric
+
+calculeze prețul în funcție de strategia aplicată
+
+permită schimbarea strategiei fără a modifica clasa
+
+poată afișa detalii complete

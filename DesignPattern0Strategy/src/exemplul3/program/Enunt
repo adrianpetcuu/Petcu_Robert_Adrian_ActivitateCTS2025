@@ -1,0 +1,16 @@
+ Enunț: Compresie fișiere în funcție de strategie
+Context:
+O aplicație de arhivare (de genul WinRAR/7Zip) permite utilizatorului să comprime fișiere folosind mai multe tipuri de algoritmi:
+
+ZIP (compresie standard, rapidă)
+
+RAR (compresie medie, dar mai eficientă)
+
+7z (compresie puternică, dar mai lentă)
+
+Cerințe:
+Utilizatorul poate selecta algoritmul de compresie.
+
+Aplicația trebuie să fie extensibilă pentru a adăuga algoritmi noi fără a modifica codul principal.
+
+Clasa Compresor trebuie să poată schimba algoritmul la runtime și să apeleze metoda de comprimare fără să știe detaliile implementării.

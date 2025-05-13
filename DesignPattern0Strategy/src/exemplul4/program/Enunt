@@ -1,0 +1,26 @@
+ Enunț: Sistem de procesare plăți internaționale cu strategii fiscale
+Context:
+O companie care oferă servicii digitale în mai multe țări (ex: România, Germania, SUA) trebuie să
+implementeze un modul care procesează plățile clienților. Fiecare țară are:
+
+un sistem propriu de calcul al taxelor
+
+reguli diferite de validare a codului fiscal / TVA
+
+un mesaj specific de confirmare a tranzacției
+
+Cerințe:
+Sistemul trebuie să permită extinderea pentru noi țări fără a modifica codul existent.
+
+Clasa ProcesatorPlata trebuie să:
+
+primească suma
+
+aplice strategia fiscală specifică țării
+
+returneze totalul cu taxe
+
+valideze codul fiscal
+
+logheze tranzacția într-un format specific
+
