@@ -5,7 +5,6 @@ import exemplul5.clase.CalculPremium;
 import exemplul5.clase.CalculRCA;
 import exemplul5.clase.PolitaAsigurare;
 
-
 public class Program {
     public static void main(String[] args) {
         PolitaAsigurare politaAsigurare = new PolitaAsigurare("Ion Popescu", 23,
