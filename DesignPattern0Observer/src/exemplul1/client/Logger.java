@@ -1,4 +1,4 @@
-package exemplu1.client;
+package exemplul1.client;
 
 public class Logger implements Observer {
     private String nume;

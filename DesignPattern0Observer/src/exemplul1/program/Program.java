@@ -1,10 +1,10 @@
-package exemplu1.program;
+package exemplul1.program;
 
 
-import exemplu1.clase.FileMonitor;
-import exemplu1.client.BackupService;
-import exemplu1.client.Logger;
-import exemplu1.client.Observer;
+import exemplul1.clase.FileMonitor;
+import exemplul1.client.BackupService;
+import exemplul1.client.Logger;
+import exemplul1.client.Observer;
 
 
 public class Program {

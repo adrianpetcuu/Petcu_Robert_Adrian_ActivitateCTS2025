@@ -1,0 +1,15 @@
+Scenariu: Spital – notificare de urgență în lanț
+Context:
+La o urgență medicală (ex: cod roșu), se declanșează notificări către:
+
+Asistent → vine la caz
+
+Doctor → pregătește sala
+
+SistemAlerta → trimite semnal sonor
+
+Dar apoi, SistemAlerta (care e Observer) devine Subject și notifică:
+
+DispecerSMURD
+
+ServiciuAmbulanta

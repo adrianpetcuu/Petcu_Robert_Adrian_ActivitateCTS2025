@@ -1,6 +1,6 @@
-package exemplu1.clase;
+package exemplul1.clase;
 
-import exemplu1.client.Observer;
+import exemplul1.client.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
