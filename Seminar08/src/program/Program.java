@@ -3,8 +3,6 @@ package program;
 
 import clase.Facade;
 import clase.Masa;
-import clase.Ospatar;
-import clase.Picolo;
 
 public class Program {
     public static void main(String[] args) {

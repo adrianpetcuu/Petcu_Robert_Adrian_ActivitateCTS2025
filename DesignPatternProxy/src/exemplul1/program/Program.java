@@ -13,7 +13,7 @@ public class Program {
         pachetTransport.rezervaPachet();
         System.out.println("---------------------");
 
-        PachetTuristic pachetTransportProxy = new ProxyPachetTransport(persoana);
+        PachetTuristic pachetTransportProxy = new ProxyPachetTransport((PachetTransport) pachetTransport);
         pachetTransportProxy.descriere();
         pachetTransportProxy.rezervaPachet();
     }

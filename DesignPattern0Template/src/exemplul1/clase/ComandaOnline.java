@@ -7,10 +7,10 @@ public abstract class ComandaOnline {
         this.idComanda = idComanda;
     }
 
-    public abstract void selecteazaProduse(int id);
-    public abstract void calculeazaTransport(int id);
-    public abstract void proceseazaPlata(int id);
-    public abstract void confirmaLivrare(int id);
+    protected abstract void selecteazaProduse(int id);
+    protected abstract void calculeazaTransport(int id);
+    protected abstract void proceseazaPlata(int id);
+    protected abstract void confirmaLivrare(int id);
 
     public final void proceseazaComanda(){
         selecteazaProduse(idComanda);
