@@ -14,6 +14,6 @@ public class Program {
 
         laptop.vinde(2);
 
-        laptop.alimenteaza(5); 
+        laptop.alimenteaza(5);
     }
 }
